@@ -15,26 +15,34 @@ header{
     height: 20vh;
 }
 main{
-    float: auto;
     height: 60vh;
 }
 div{
     width: 70%;
-}
-.section_article {
-    float: inline-start;
-    width: 100%;
+    height: 100%;
+    
 }
 section{
     background-color: gray;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 article{
     background-color: cadetblue;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 aside{
     background-color: burlywood;
     height: 100%;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     background-color: antiquewhite;
